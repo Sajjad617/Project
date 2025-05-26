@@ -310,7 +310,7 @@ int main() {
         } 
         else
         {
-            cout << "Thantill k You For Visiting Our Shopping Mall." << endl;
+            cout << "Thank You For Visiting Our Shopping Mall." << endl;
             break;
         }
     }
