@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <title>Budget check</title>
+</head>
+<body class="bg-gray-100  p-[40px]">
+    <div id="main" class="bg-white p-[30px] shadow-xl rounded-xl m-auto w-[800px]">
+        <div>
+            <h1 class="font-bold text-xl text-center " ><span class="text-green-800 shadow-md">MCQ Auto Test</span> </h1>
+        </div >
+        <!-- 01.  -->
+        <div id="q" class="w-full flex flex-col justify gap-4 py-5">
+            <p class="font-bold">01. Which of the following is NOT a characteristic of a good algorithm?</p>
+            <div class="flex gap-10 px-20">
+                <div>
+                    <input type="radio" id="Finiteness" name="box1">
+                    <label for="Finiteness">Finiteness</label>
+                </div>
+                <div>
+                    <input type="radio" id="Input" name="box1">
+                    <label for="Input">Input</label>
+                </div>
+                <div>
+                    <input type="radio" id="Output" name="box1">
+                    <label for="Output">Output</label>
+                </div>
+                <div>
+                    <input type="radio" id="Infinite_loop" name="box1">
+                    <label for="Infinite_loop">Infinite loop</label>
+                </div>
+            </div>
+        </div>
+        <!-- 02. -->
+        <div id="q" class="w-full flex flex-col justify gap-4 ">
+            <p class="font-bold">02. Binary Search algorithm works only if the data is:</p>
+            <div class="flex gap-10 px-20">
+                <div>
+                    <input type="radio" id="Unsorted" name="box2">
+                    <label for="Unsorted">Unsorted</label>
+                </div>
+                <div>
+                    <input type="radio" id="Randomly" name="box2">
+                    <label for="Randomly">Randomly </label>
+                </div>
+                <div>
+                    <input type="radio" id="All_elements_are_equal" name="box2">
+                    <label for="All_elements_are_equal">All elements are equal</label>
+                </div>
+                <div>
+                    <input type="radio" id="Sorted" name="box2">
+                    <label for="Sorted">Sorted</label>
+                </div>
+            </div>
+        </div>
+        <!-- 03. -->
+        <div id="q" class="w-full flex flex-col justify gap-4 py-5">
+            <p class="font-bold">03. Which of the following sorting algorithms has the best average-case time complexity?:</p>
+            <div class="flex gap-10 px-20">
+                <div>
+                    <input type="radio" id="Bubble" name="box3">
+                    <label for="Bubble">Bubble</label>
+                </div>
+                <div>
+                    <input type="radio" id="Insertion" name="box3">
+                    <label for="Insertion">Insertion</label>
+                </div>
+                <div>
+                    <input type="radio" id="Merge" name="box3">
+                    <label for="Merge">Merge</label>
+                </div>
+                <div>
+                    <input type="radio" id="Selection" name="box3">
+                    <label for="Selection">Selection</label>
+                </div>
+            </div>
+        </div>
+        <!-- 04. -->
+        <div id="q" class="w-full flex flex-col justify gap-4 py-5">
+            <p class="font-bold">04. Which data structure uses the LIFO (Last In First Out) principle?</p>
+            <div class="flex gap-10 px-20">
+                <div>
+                    <input type="radio" id="Queue" name="box4">
+                    <label for="Queue">Queue</label>
+                </div>
+                <div>
+                    <input type="radio" id="Stack" name="box4">
+                    <label for="Stack">Stack</label>
+                </div>
+                <div>
+                    <input type="radio" id="Array" name="box4">
+                    <label for="Array">Array</label>
+                </div>
+                <div>
+                    <input type="radio" id="Map" name="box4">
+                    <label for="Map">Map</label>
+                </div>
+            </div>
+        </div>
+        <!-- 05. -->
+        <div id="q" class="w-full flex flex-col justify gap-4">
+            <p class="font-bold">05. What is the value of 7² + 3² ?</p>
+            <div class="flex gap-10 px-20">
+                <div>
+                    <input type="radio" id="58" name="box5">
+                    <label for="58">58</label>
+                </div>
+                <div>
+                    <input type="radio" id="49" name="box5">
+                    <label for="49">49</label>
+                </div>
+                <div>
+                    <input type="radio" id="73" name="box5">
+                    <label for="73">73</label>
+                </div>
+                <div>
+                    <input type="radio" id="68" name="box5">
+                    <label for="68">68</label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="py-4 text-center">
+            <button class="bg-blue-500 px-6 w-full py-3 font-bold text-white rounded-md hover:bg-blue-600 text-xl" onclick="Check()">Submit</button>
+        </div>
+
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
